@@ -1,9 +1,6 @@
 def solution(n):
     answer = ''
-    numlist = []
-    
-    for c in str(n):
-        numlist.append(c)
+    numlist = list(str(n))
         
     numlist.sort(reverse=True)
     

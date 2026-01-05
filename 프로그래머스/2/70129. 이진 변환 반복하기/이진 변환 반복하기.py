@@ -1,6 +1,5 @@
 def solution(s):
-    cnt = 0
-    zero = 0
+    cnt, zero = 0, 0
     
     while s != '1':
         l = 0

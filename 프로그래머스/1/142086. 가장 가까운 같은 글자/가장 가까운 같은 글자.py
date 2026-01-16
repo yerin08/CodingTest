@@ -2,13 +2,11 @@ def solution(s):
     answer = [-1]
     
     for i in range(1, len(s)):
-        location = []
-        for j in range(i):
+        index = -1
+        for j in range(i-1, -1, -1):
             if s[i] == s[j]:
-                location.append(i-j)
-        if location:
-            answer.append(min(location))
-        else:
-            answer.append(-1)
+                index = i - j
+                break
+        answer.append(index)
                   
     return answer

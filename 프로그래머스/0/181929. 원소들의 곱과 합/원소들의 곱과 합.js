@@ -7,6 +7,5 @@ function solution(num_list) {
         sum += num;
     }
     
-    if (multiply < sum * sum) return 1;
-    else return 0;
+    return multiply < sum ** 2 ? 1 : 0;
 }

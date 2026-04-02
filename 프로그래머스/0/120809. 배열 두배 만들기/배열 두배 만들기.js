@@ -1,8 +1,3 @@
 function solution(numbers) {
-    var answer = [];
-    
-    for (let num of numbers) {
-        answer.push(num * 2);
-    }
-    return answer;
+    return numbers.map(item => item * 2);
 }

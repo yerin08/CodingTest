@@ -15,11 +15,7 @@ rl.on('line', function (line) {
 });
 
 function solution(n) {
-    for (let i = 0; i < n; i++) {
-        let star = '';
-        for (let j = 0; j <= i; j++) {
-            star += '*';
-        }
-        console.log(star);
+    for (let i = 1; i <= n; i++) {
+        console.log('*'.repeat(i));
     }
 }

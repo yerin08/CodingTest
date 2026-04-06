@@ -1,10 +1,10 @@
 # [level 0] 짝수의 합 - 120831 
 
-[문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/120831) 
+[문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/120831?language=javascript) 
 
 ### 성능 요약
 
-메모리: 9.09 MB, 시간: 0.02 ms
+메모리: 33.3 MB, 시간: 0.10 ms
 
 ### 구분
 
@@ -16,7 +16,7 @@
 
 ### 제출 일자
 
-2025년 12월 19일 21:13:10
+2026년 04월 07일 08:39:11
 
 ### 문제 설명
 

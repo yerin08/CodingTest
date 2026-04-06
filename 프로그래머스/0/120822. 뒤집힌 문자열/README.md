@@ -1,10 +1,10 @@
 # [level 0] 뒤집힌 문자열 - 120822 
 
-[문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/120822) 
+[문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/120822?language=javascript) 
 
 ### 성능 요약
 
-메모리: 9.21 MB, 시간: 0.00 ms
+메모리: 33.1 MB, 시간: 0.10 ms
 
 ### 구분
 
@@ -16,7 +16,7 @@
 
 ### 제출 일자
 
-2026년 04월 07일 08:06:26
+2026년 04월 07일 08:11:24
 
 ### 문제 설명
 

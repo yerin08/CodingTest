@@ -3,6 +3,5 @@ function solution(sides) {
     const max = sides.pop();
     const others = sides.reduce((a, b) => a + b, 0);
     
-    if (max < others) return 1;
-    else return 2;
+    return max < others ? 1 : 2;
 }

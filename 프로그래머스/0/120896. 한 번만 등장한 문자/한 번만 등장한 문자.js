@@ -1,6 +1,6 @@
 function solution(s) {
     const answer = [];
-    const s_arr = [...s];
+    const s_arr = [...s].sort();
     const s_arr_length = s_arr.length;
     let c = '';
     
@@ -12,8 +12,6 @@ function solution(s) {
             answer.push(c);
         }
     }
-    
-    answer.sort();
     
     return answer.join('');
 }

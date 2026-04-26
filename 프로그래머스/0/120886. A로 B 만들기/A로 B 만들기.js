@@ -6,6 +6,5 @@ function solution(before, after) {
         if (index !== -1) after_list.splice(index, 1);
     }
     
-    console.log(after_list);
     return after_list.length === 0 ? 1 : 0;
 }
